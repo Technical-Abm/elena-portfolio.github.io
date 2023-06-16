@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.process-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-text {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 550;
+}
+
+.process-one {
+    width: 100%;
+    height: 4px;
+    background: rgb(207, 207, 207);
+    border-radius: 10px;
+}
+
+.process-one .process-finish {
+    width: 90%;
+    height: 4px;
+    background: rgb(5, 70, 211);
+    border-radius: 10px;
+}
