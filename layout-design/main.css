@@ -30,6 +30,7 @@ body {
     --background-color-dark: #242424;
     --boostrap-btn-color: #0d6efd !important;
     --bootstrap-border-color: rgba(0, 0, 0, 0.175);
+    --paragraph-text-color: #585858;
 }
 
 .container {
@@ -202,6 +203,18 @@ body {
     text-transform: uppercase;
 }
 
+@media only screen and (max-width:370px) {
+    .harry {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width:318px) {
+    .harry {
+        font-size: 30px;
+    }
+}
+
 #here-details {
     font-size: 16px;
     color: #3a3a3a;
@@ -218,7 +231,7 @@ body {
 
 .lorem .random-text {
     font-size: 16px;
-    color: #3a3a3a;
+    color: #585858;
     text-align: left;
     letter-spacing: 1px;
 }
@@ -243,7 +256,7 @@ body {
     width: 100%;
     max-width: 250px !important;
     height: 3px;
-    background-color: #f6f6f6b0;
+    background-color: var(--bootstrap-border-color);
     position: absolute;
     top: 310px;
     left: 0;
@@ -400,7 +413,7 @@ body {
     text-align: center;
     letter-spacing: var(--letter-spacing-1px);
     font-size: 14px;
-    color: var(--font-color);
+    color: var(--paragraph-text-color);
 }
 
 @media only screen and (max-width:760px) {
@@ -477,7 +490,7 @@ span.name-list {
 .comment-lorem {
     text-align: center;
     letter-spacing: var(--letter-spacing-1px);
-    color: #3a3a3a;
+    color: var(--paragraph-text-color);
     font-size: 14px;
 }
 
@@ -749,7 +762,7 @@ span.name-list {
 
 .years {
     font-size: 14px;
-    color: var(--font-color);
+    color: var(--paragraph-text-color);
     letter-spacing: var(--letter-spacing-1px);
     text-align: center;
 }
@@ -806,7 +819,7 @@ span.name-list {
 
 .list-footer .href-links {
     text-decoration: none;
-    color: var(--font-color);
+    color: var(--paragraph-text-color);
     font-size: 16px;
     letter-spacing: var(--letter-spacing-1px);
 }
@@ -824,7 +837,7 @@ span.name-list {
 
 .footer-text {
     letter-spacing: var(--letter-spacing-1px);
-    color: var(--font-color);
+    color: var(--paragraph-text-color);
 }
 
 .footer-input {
@@ -852,6 +865,7 @@ span.name-list {
     font-size: 14px;
     letter-spacing: var(--letter-spacing-1px);
     transition: border 0.8s ease-in-out;
+    color: var(--paragraph-text-color);
 }
 
 .btn-outlie:hover {
